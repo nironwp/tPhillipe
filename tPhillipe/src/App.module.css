@@ -175,4 +175,17 @@
     bottom:-1px;
 }
 }
+@media screen and (max-width:600px) {
+  .container:first-child{
+    height: 30%;
+  }
+  
+  .container:first-child img{
+    display: none;
+    height: 20%;
+  }
 
+  .container:first-child h1{
+    margin: 45% auto;
+  }
+}
