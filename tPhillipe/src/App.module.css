@@ -175,7 +175,7 @@
     bottom:-1px;
 }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   .container:first-child{
     height: 30%;
   }
@@ -187,5 +187,32 @@
 
   .container:first-child h1{
     margin: 45% auto;
+  }
+
+  .CulturaDigital{
+    height: 30%;
+  }
+  
+  .CulturaDigital img{
+    display: none;
+    height: 20%;
+  }
+
+  .CulturaDigital h1{
+    margin: 28% auto;
+  }
+
+  .PensamentoComputacional{
+    height: 30%;
+  }
+  
+  .PensamentoComputacional img{
+    display: none;
+    height: 20%;
+  }
+
+  .PensamentoComputacional h1{
+    margin: 25% auto;
+    font-size: 1.3em;
   }
 }
