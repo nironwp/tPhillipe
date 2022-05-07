@@ -1,0 +1,178 @@
+.bg{
+  background-color: rgb(1, 1, 18);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.container{
+  max-width: 1200px;
+  position: absolute;
+  margin: 25vh 5vw;
+
+}
+
+.container h1{
+  margin-top: 0.5rem;
+  color: white !important;
+}
+
+.container:first-child{
+  width: 23.3%;
+  text-decoration: none;
+  height: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  border-radius: 1.5rem;
+  background-color: rgba(30, 28, 28, 0.609);
+}
+.container:first-child h1{
+  text-align: center;
+}
+
+.container:first-child img{
+  width: 60.3%;
+  margin-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60.3%;
+}
+
+
+.CulturaDigital{
+  width: 23.3%;
+  position: absolute;
+  margin: 25vh 38vw;
+  text-decoration: none;
+  height: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  border-radius: 1.5rem;
+  background-color: rgba(30, 28, 28, 0.609);
+}
+
+.CulturaDigital h1{
+  text-align: center;
+  position: relative;
+}
+.CulturaDigital h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #33ff00;
+    width:6.9em;
+    left:auto;
+    bottom:-1px;
+}
+.CulturaDigital h1::before:active{
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #0073ff;
+  width:6.9em;
+  left:auto;
+  bottom:-1px;
+}
+.CulturaDigital img{
+  width: 80.3%;
+  margin-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60.3%;
+}
+
+.PensamentoComputacional{
+  width: 23.3%;
+  position: absolute;
+  margin: 25vh 71vw;
+  text-decoration: none;
+  height: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  border-radius: 1.5rem;
+  background-color: rgba(30, 28, 28, 0.609);
+}
+
+.PensamentoComputacional h1{
+  text-align: center;
+  position: relative;
+  font-size: 1.6em;
+}
+
+.PensamentoComputacional h1::before{
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #33ff00;
+  width:7.9em;
+  left:3.5rem;
+  bottom:-1px;
+}
+
+.PensamentoComputacional img{
+  width: 60.3%;
+  margin-top: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60.3%;
+}
+
+@media screen and (max-width: 600px) {
+  .bg{
+    height: 200vh;
+  }
+  
+  .container{
+    flex-direction: column;
+    top: -20%;
+    left: 33%;
+  }
+  .CulturaDigital img{
+    width: 70.3%;
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45.3%;
+  }
+
+  .responvity600{
+    margin: 0vh 0vw;
+    
+  }
+  .CulturaDigital,
+  .PensamentoComputacional h1
+  {
+    font-size: 1em;
+  }
+  .container:first-child{
+    height: 50%;
+    width: 30%;
+  }
+  .CulturaDigital{
+    height: 50%;
+    width: 30%;
+    left: -1%;
+    top: 45%;
+  }
+  .PensamentoComputacional{
+    height: 50%;
+    width: 30%;
+    left: -34.8%;
+    top: 115%;
+  }
+
+  .CulturaDigital h1::before{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #0073ff;
+    width:2.9em;
+    left:-1rem;
+    bottom:-1px;
+}
+}
+

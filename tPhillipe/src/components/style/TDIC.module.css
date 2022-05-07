@@ -1,0 +1,262 @@
+.bg{
+     width: 100vw;
+     height: auto;
+     background-color: rgb(1, 1, 18);
+}
+
+.container{
+     max-width: 1200px;
+     color: white;
+     margin: 0 auto;
+}
+
+.whatIStdi{
+     margin-top: 1rem;
+}
+.whatIStdi p{
+     margin-top: 0.5rem;
+}
+
+.tdiExemp{
+     margin-top: 1rem;
+}
+.tdiExemp p{
+     margin-top:0.5rem;
+}
+
+.contribuitionsTdi{
+     margin-top: 1rem;
+}
+
+.contribuitionsTdi p{
+     margin-top: 0.5rem;
+}
+
+.negativeandpositivepoints{
+     margin-top: 1rem;
+}
+
+.negativeandpositivepoints p{
+     margin-top: 0.5rem;
+}
+
+.negativePoints{
+     margin-top: 1rem;
+}
+
+.negativePoints h4{
+     margin-top: 0.5rem;
+}
+
+.negativePoints ul{
+     margin-top: 0.5rem;
+     margin-left: 1.5rem;
+}
+
+.negativePoints ul li{
+     margin-top: 0.3rem;
+}
+
+
+
+@media screen and (max-width: 800px) {
+     .bg{
+          height: 200vh;
+     }
+     .container{
+          max-width: 600px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     .bg{
+          height: 200vh;
+     }
+     .container{
+          max-width: 600px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 1200px) {
+     .bg{
+          height: 140vh;
+     }
+     .container{
+          min-width: 200px;
+          max-width: 700px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-height:600px) {
+     .bg{
+          height: 140vh;
+     }
+ }
+
+ @media screen  and (max-width:800px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 235vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-width:1000px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 190vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-width:1100px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 165vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:600px) and (max-width:1100px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 175vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+ @media screen and (max-height:950px) and (max-width:500px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 225vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+ @media screen and (max-height:700px) and (max-width:300px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 475vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:750px) and (max-width:600px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 225vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:1400px) and (max-width:950px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 125vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.5em;
+     }
+ }
+ @media screen and (max-height:700px) and (max-width:300px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 375vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:1100px) and (max-width:800px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 135vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:1200px) and (max-width:850px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 100vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:950px) and (max-width:450px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 225vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:750px) and (max-width:400px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 310vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:900px) and (max-width:400px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 255vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
+
+ @media screen and (max-height:800px) and (max-width:600px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 225vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }

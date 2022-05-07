@@ -1,0 +1,79 @@
+.bg{
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(1, 1, 18);
+}
+
+.container{
+     max-width: 1200px;
+     color: white;
+     margin: 0 auto;
+}
+
+.whatIsctd{
+     margin-top: 1rem;
+}
+
+.whatIsctd p{
+     margin-top: 0.5rem;
+}
+
+.blue{
+     color: blue;
+}
+
+@media screen and (max-width: 600px) {
+     .bg{
+          height: 265vh;
+     }
+     .container{
+          max-width: 400px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 800px) {
+     .bg{
+          height: 155vh;
+     }
+     .container{
+          max-width: 600px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     .bg{
+          height: 155vh;
+     }
+     .container{
+          max-width: 600px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+
+@media screen and (max-width: 1200px) {
+     .bg{
+          height: 155vh;
+     }
+     .container{
+          max-width: 700px;
+          color: white;
+          margin: 0 auto;
+     }
+}
+
+@media screen  and (max-width:1400px) {
+     .bg{
+          background-color: rgb(1, 1, 18); 
+          height: 105vh;
+     }
+     .container{
+          max-width:80vw;
+          font-size: 1.2em;
+     }
+ }
